@@ -1,9 +1,11 @@
-JavaScript-tutorial
-===================
+# Learn JS!
+
+### Description
 
 I am working on making a JavaScript tutorial repository. 
 
-What's done so far:
+### What's done so far
+
 - Data types
 - Numbers
 - Strings
