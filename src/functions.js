@@ -18,4 +18,12 @@ function log(x, y) {
 }
 console.log("Hello"); // -> Hello World
 console.log("Hello", "Kyle"); // -> Hello Kyle
-console.log("Hello", " "); // -> Hello World
+console.log("Hello", ""); // -> Hello World
+
+// Yet another function example:
+function log(x, y = "World") {
+  console.log(x, y);
+}
+console.log("Hello"); // -> Hello World
+console.log("Hello", "splashinn"); // -> Hello splashinn
+console.log("Hello", "") // -> Hello 
