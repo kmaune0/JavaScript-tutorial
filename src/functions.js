@@ -10,3 +10,12 @@ var square = function(x) {
   return x * x;
 }
 console.log(square(12)); // -> 144
+
+// Another function example:
+function log(x, y) {
+  y = y || "World";
+  console.log(x, y);
+}
+console.log("Hello"); // -> Hello World
+console.log("Hello", "Kyle"); // -> Hello Kyle
+console.log("Hello", " "); // -> Hello World
