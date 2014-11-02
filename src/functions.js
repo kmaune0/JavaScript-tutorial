@@ -27,3 +27,11 @@ function log(x, y = "World") {
 console.log("Hello"); // -> Hello World
 console.log("Hello", "splashinn"); // -> Hello splashinn
 console.log("Hello", "") // -> Hello 
+
+// And another example showing scope:
+var x = 1;
+
+function foo(x, y = x) {
+  console.log(y);
+}
+foo(2) // -> 2
