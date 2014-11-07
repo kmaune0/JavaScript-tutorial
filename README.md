@@ -1,4 +1,4 @@
-# Learn JS!
+# JavaScript Tutorial
 
 ### Description
 
