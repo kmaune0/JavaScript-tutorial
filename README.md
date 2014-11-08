@@ -9,3 +9,5 @@ I am working on making a JavaScript tutorial repository.
 - Data types
 - Numbers
 - Strings
+- Functions
+- Loops
