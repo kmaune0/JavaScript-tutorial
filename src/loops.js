@@ -18,6 +18,10 @@ for (index = 0; index < a.length; ++index) {
 }
 
 // If you're using an environment that supports the Array features of ECMAScript5 (directly or using a shim), you can use the new forEach function:
+var a = ["a", "b", "c"];
+a.forEach(function(entry) {
+    console.log(entry);
+});
 
 // The while loop is used when you want the loop to execute and continue executing while the specified condition is true. 
 // Example:
